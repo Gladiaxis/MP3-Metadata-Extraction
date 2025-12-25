@@ -19,12 +19,12 @@ L’application est disponible en **mode ligne de commande (CLI)** et en **inter
 Le projet est organisé en plusieurs packages, chacun ayant une responsabilité claire :
 
 src/
--├── controleur/ # Logique de traitement des commandes CLI
--├── gestionnaireFichiers/ # Exploration des répertoires et gestion des MP3
--├── ihm/ # Interfaces utilisateur (CLI et GUI)
--├── metadonnees/ # Extraction des métadonnées MP3
--├── playlist/ # Gestion et export des playlists
--└── test/ # Classes de test et de validation
+- ├── controleur/ # Logique de traitement des commandes CLI
+- ├── gestionnaireFichiers/ # Exploration des répertoires et gestion des MP3
+- ├── ihm/ # Interfaces utilisateur (CLI et GUI)
+- ├── metadonnees/ # Extraction des métadonnées MP3
+- ├── playlist/ # Gestion et export des playlists
+- └── test/ # Classes de test et de validation
 
 ---
 
