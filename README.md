@@ -31,11 +31,13 @@ src/
 ## ✨ Fonctionnalités
 
 ### 🎶 Gestion des fichiers MP3
+
 - Détection récursive des fichiers MP3 dans un répertoire
 - Filtrage par extension et type MIME
 - Chargement paresseux des métadonnées (à la demande)
 
 ### 🏷️ Métadonnées
+
 - Titre
 - Artiste
 - Album
@@ -46,6 +48,7 @@ src/
 > Extraction réalisée via la bibliothèque **mp3agic**
 
 ### 📂 Playlists
+
 - Création automatique de playlists à partir d’un dossier
 - Ajout / suppression manuelle de morceaux
 - Export des playlists aux formats :
@@ -55,6 +58,7 @@ src/
 - Import de playlists **M3U8**
 
 ### 🖥️ Interfaces utilisateur
+
 - **CLI** : utilisation via la ligne de commande
 - **GUI** : interface graphique Swing avec :
   - exploration de dossiers,
@@ -86,3 +90,45 @@ java -jar cli.jar -h
 java -jar cli.jar -f "fichier.mp3"
 java -jar cli.jar -d .
 java -jar cli.jar -d . --m3u8 -o playlist.m3u8
+```
+
+### ▶️ Lancement en mode CLI
+
+```bash
+java -jar gui.jar
+```
+
+---
+
+## 📚 Documentation
+
+La documentation complète du projet est générée via Javadoc.
+
+- Génération réalisée avec visibilité Public
+- Documentation HTML disponible dans le dossier doc/
+- Fichier principal : doc/index.html
+
+---
+
+## 🛠️ Technologies utilisées
+
+- Java 21
+- Swing (GUI)
+- mp3agic (lecture des tags ID3)
+- Javadoc (documentation)
+
+---
+
+## 📄 Remarques
+
+- Le projet est conçu de manière modulaire et extensible.
+- L’ajout d’autres bibliothèques de métadonnées (ex. jaudiotagger) est envisageable.
+- L’architecture respecte une séparation claire entre logique métier, interface et tests.
+
+---
+
+## 👤 Auteurs
+
+Bijed KHALFOUN & Adel MAHI.
+
+- Projet réalisé dans le cadre d’un travail académique.
