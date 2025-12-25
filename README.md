@@ -85,6 +85,8 @@ Elles ne sont pas utilisées dans l’application finale.
 
 ### ▶️ Lancement en mode CLI
 
+- L'executable cli.jar est à mettre dans le répertoire à explorer.
+
 ```bash
 java -jar cli.jar -h
 java -jar cli.jar -f "fichier.mp3"
