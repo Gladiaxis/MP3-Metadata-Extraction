@@ -19,7 +19,6 @@ L’application est disponible en **mode ligne de commande (CLI)** et en **inter
 Le projet est organisé en plusieurs packages, chacun ayant une responsabilité claire :
 
 src/
-
 ├── controleur/ # Logique de traitement des commandes CLI
 
 ├── gestionnaireFichiers/ # Exploration des répertoires et gestion des MP3
