@@ -1,5 +1,3 @@
-# MP3-Metadata-Extractor
-
 # 🎵 MP3 Metadata Extractor – Gestion de métadonnées et playlist (Java)
 Projet POO 2025-2026
 
